@@ -1,0 +1,42 @@
+<script>
+  // var
+  // let
+  // const
+
+  var clima = 'Quente' // variaveis do tipo var podem ser reatribuidas ao longo do projeto recebendo outro valor.
+  clima = 'Frio'
+
+  console.log(clima)
+
+  let ceu = 'Chuvoso' // variaveis do tipo let podem ser reatribuidas ao longo do projeto recebendo outro valor que nem var.
+  ceu = 'Nublado'
+
+  console.log(ceu)
+
+  const terra = 'Lama' // variaveis do tipo const nao podem ser reatribuidas ao longo do projeto elas sao constante.
+  //terra = "seca" iria dar erro se tirar as barras de comentario.
+  console.log(terra)
+
+  //Tipos Dinamicos
+
+  //var e um tipo dinamico ja que quando vc reatribui o valor dela ela aceita um tipo de dado diferente.
+  //let que nem var aceita mudanças de valor e dados.
+  //const nao aceita se você começou com um tipo de dado vai ter que ir ate o final se tentar mudar da erro.
+  // na linguagem JavaScript ela e fracamente tipada ja que nao precisamos atribuir um tipo de dado nela.
+
+  var caneta = 5 // aqui a variavel e do tipo number .
+  caneta = 'bic' // aqui ela muda pro tipo String.
+  caneta = false // e pro tipo boolean.
+
+  console.log(typeof caneta)
+
+  let bucha = true // e aqui muda para boolean.
+  bucha = 'molhada' // e aqui muda para string.
+  bucha = 2 //aqui a mesma variavel muda para o tipo number.
+
+  console.log(typeof bucha)
+
+  const papel = 'branco' // aqui a variavel const somente sera do tipo string caso tente mudar dara erro.
+  //papel = false "exemplo"
+  console.log(typeof papel)
+</script>
